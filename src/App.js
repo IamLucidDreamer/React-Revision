@@ -5,7 +5,9 @@ import EventBind from "./Components/EventBind";
 import FunctionClick from "./Components/FunctionClick";
 import Greet from "./Components/Greet";
 import Meassage from "./Components/Meassage";
+import NameList from "./Components/NameList";
 import ParentComponent from "./Components/ParentComponent";
+import UserGreeting from "./Components/UserGreeting";
 import Welcome from "./Components/Welcome";
 
 function App() {
@@ -28,7 +30,9 @@ function App() {
       {/* <FunctionClick />
       <ClassClick /> */}
       {/* <EventBind /> */}
-      <ParentComponent />
+      {/* <ParentComponent /> */}
+      {/* <UserGreeting /> */}
+      <NameList />
     </div>
   );
 }
