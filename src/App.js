@@ -2,6 +2,7 @@ import "./App.css";
 import ClassClick from "./Components/ClassClick";
 import Counter from "./Components/Counter";
 import EventBind from "./Components/EventBind";
+import Form from "./Components/Form";
 import FunctionClick from "./Components/FunctionClick";
 import Greet from "./Components/Greet";
 import Meassage from "./Components/Meassage";
@@ -32,7 +33,8 @@ function App() {
       {/* <EventBind /> */}
       {/* <ParentComponent /> */}
       {/* <UserGreeting /> */}
-      <NameList />
+      {/* <NameList /> */}
+      <Form />
     </div>
   );
 }

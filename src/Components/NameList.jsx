@@ -22,7 +22,7 @@ function NameList() {
     },
   ];
   const personList = persons.map((person) => (
-    <h1>
+    <h1 key={person.id}>
       The ID is {person.id}. My Name is {person.name}. My title is
       {person.title}. My Number is {person.number}
     </h1>
